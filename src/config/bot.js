@@ -23,8 +23,8 @@ export const botConfig = {
     // 5 = Competing
     activities: [
       {
-        name: "24/7 dnd always active", // required by Discord API, not shown in the client
-        state: "stalking",     // this is what people actually see
+        name: ".", // required by Discord API, not shown in the client
+        state: "Not Active",     // this is what people actually see
         type: 4,               // Custom
       },
     ],
@@ -93,7 +93,7 @@ export const botConfig = {
   embeds: {
     colors: {
       // Main brand colors.
-      primary: "#336699",
+      primary: "#5302A0",
       secondary: "#2F3136",
 
       // Standard status colors for success/error/warning/info messages.
